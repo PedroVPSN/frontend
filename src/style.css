@@ -145,6 +145,16 @@ color: #007bff;
     }
 }
 
+@media only screen and (min-width: 376px) and (max-width: 765px) {
+    .input-group-text {
+        width: 376px;
+    }
+    .box {
+        width: 75px;
+        margin-left: 0.5rem;
+    }
+}    
+
 @media only screen and (max-width: 360px) {
     .input-group-text {
         width: 220px;
